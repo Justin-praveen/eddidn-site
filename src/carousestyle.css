@@ -1,0 +1,45 @@
+#carouse-main {
+    position: relative;
+
+    align-items: center;
+    justify-content: center;
+    height: 480px;
+    padding: 20px;
+    flex-wrap: wrap;
+
+
+}
+
+#caro {
+    align-items: center;
+    justify-content: center;
+
+}
+
+#card1 {
+    background-color: black !important;
+
+}
+
+#caros {
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width:480px) {
+
+    #carouse-main {
+        position: relative;
+        height: 100vh !important;
+    }
+
+    #caro {
+        position: relative;
+        width: 70%;
+        height: 100vh !important;
+        z-index: 0 !important;
+    }
+
+}

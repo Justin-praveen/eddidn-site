@@ -1,0 +1,108 @@
+body {
+    background-color: black !important;
+
+}
+
+#navbar-top {
+    background-color: black !important;
+    color: white;
+
+}
+
+#basic-navbar-nav {
+    justify-content: end;
+    margin-right: 100px;
+}
+
+#Navbarlinks {
+    color: white !important;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-self: center;
+    margin: 20px;
+
+}
+
+#Navbarlinks:hover {
+    color: rgb(5, 109, 107) !important;
+    font-weight: lighter;
+    transition: 0.5s;
+
+}
+
+#toggle {
+    color: rgb(5, 109, 107) !important;
+    background-color: rgb(5, 109, 107);
+
+}
+
+#text {
+    margin-top: 25ch;
+
+}
+
+#text-1 {
+
+    margin-top: 8ch;
+    letter-spacing: 2px;
+    color: white;
+}
+
+@media screen and (max-width:480px) {
+    #text-1 {
+        margin-left: 20px;
+        width: 70%;
+        margin-top: 0px;
+    }
+}
+
+#button-1 {
+    background-color: rgb(5, 109, 107);
+    border-radius: 20px;
+    margin-top: 2%;
+    width: 30%;
+    opacity: 0.5;
+    transition: 0.5s;
+    color: white !important;
+    padding-top: 10px;
+}
+
+#button-1:hover {
+    background-color: rgb(9, 140, 138);
+    opacity: 1.5;
+    color: white;
+}
+
+@media screen and (max-width:480px) {
+    #button-1 {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:720px) {
+    #button-1 {
+        width: 70%;
+    }
+}
+
+#img-2 {
+    box-shadow: 2px 1px 2px 2px rgb(5, 109, 107);
+    margin-top: 15ch;
+    opacity: 0.5;
+    margin: 15px;
+}
+
+#img-2:hover {
+    opacity: 1;
+}
+
+@media screen and (max-width : 480px) {
+    .point {
+        margin-top: 60% !important;
+    }
+
+    .carosal {
+        position: relative !important;
+        margin-top: 150% !important;
+    }
+}

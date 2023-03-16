@@ -1,0 +1,53 @@
+#contact {
+
+    top: 10%;
+    color: white;
+    height: 500px;
+    align-items: center;
+
+}
+
+#icon {
+    border-radius: 35px;
+    font-size: 20px;
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    color: rgb(3, 83, 74);
+
+    background-color: black;
+}
+
+#icon:hover {
+    color: black;
+    background-color: rgb(3, 83, 74);
+    transition: 1s;
+}
+
+.cont-link {
+    color: white;
+    text-decoration: none;
+}
+
+#contact-image {
+    display: flex;
+    row-gap: 30px;
+}
+
+#copyright {
+    text-align: center;
+}
+
+@media screen and(max-width:480px) {
+    #contact {
+        margin: 80% !important;
+        background-color: aqua;
+    }
+
+    #contact-image {
+        row-gap: 10px;
+        width: 50%;
+    }
+
+}
